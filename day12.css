@@ -1,0 +1,50 @@
+body{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+text-align: center;
+font-size: 40px;
+font-family: 'Times New Roman', Times, serif;
+color: rgb(83, 11, 11);
+text-decoration: underline;
+}
+p{
+    text-align:justify;
+    padding: 0 20px;
+    font-size: 18px;
+    color: rgb(110, 60, 60);
+
+}
+#image-one{
+   display: block;
+   margin: auto;
+width: 60vw;
+height: 55vh;
+border: 5px solid red;
+box-shadow:  5px  10px 10px rgb(0, 0, 0);
+}
+#image-two{
+    display: block;
+    margin: auto;
+    height: 60vh;
+    width: 40vw;
+    border-radius: 30px;
+    border: 7px groove brown;
+    box-shadow: 5px 10px 7px black;
+}
+.hik{
+height: 20vh;
+width: 25vw;
+border: 5px solid red;
+
+}
+
+#parent{
+    display: flex;
+align-items: center;
+    justify-content: space-evenly;
+
+}
